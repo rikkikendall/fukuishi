@@ -1,0 +1,99 @@
+{
+    "Header": {
+        "title": "Fukuishi Motors",
+        "paragraph": "At Fukuishi Motors, we put the peace of mind and the trust of our customers first, and provide total support for our vehicles with our technology and team strength."
+    },
+    "About": {
+        "paragraph": "1951年1月15日創業。車を通したお付き合い。 お客さまの笑顔が、私たちの原動力です。福石町で車屋さんを始めて、６７年。 福石自動車では、お気に入りの車に長く乗っていただくサポートはもちろん、お客さまへの安心と信頼を築くことを大切に過ごしてきました。 その中で、三世代を通したお客さまとの交流は、本当に嬉しい限りです。 これからも、地域のみなさまと末長くお付き合いできるよう、スタッフ一同努めてまいります。店内には、車情報を集めたくつろぎスペース、キッズコーナーもありますので、お気軽にお立ち寄りください。",
+        "Why": [
+            "Always putting the customers needs first",
+           "Total support of your vehicle.",
+           "3 Generations and Many Years of Experience",
+           "Serving the community"
+        ],
+        "Why2": [
+            "TEL: 0950-31-3638",
+           "FAX: 0950-31-8625",
+           "Closed: Sundays, Japanese Holidays, and New Years（12/31-1/4)",
+           "Open: 8:30-17:30"
+        ]
+    },
+    "Nav": {
+        "title": "Locations",
+        "about": "About",
+        "services": "Services",
+        "contact": "Contact",
+        "language": "Japanese 日本語"
+    },
+    "Services": [{
+        "icon": "fa fa-wrench",
+        "name": "点検修理",
+        "text": "Inspection & Repairs"
+        },
+        {
+            "icon": "fa fa-cog fa-spin fa-3x fa-fw",
+           "name": "車検",
+           "text": "Japan Car Inspection (JCI) Services"
+        },
+        {
+            "icon": "fa fa-support",
+           "name": "板金",
+           "text": "Body and Metal Work"
+        },
+        {
+            "icon": "fa fa-car",
+           "name": "自動車保険",
+           "text": "Car Insurance"
+        },
+        {
+            "icon": "fa fa-shopping-cart",
+           "name": "新車販売",
+           "text": "New Car Sales"
+        },
+        {
+            "icon": "fa fa-key",
+            "name": "中古車販売",
+            "text": "Used Car Sales"
+        }
+    ],
+    "Testimonials": [{
+        "img": "img/testimonials/01.jpg",
+        "text": "\"働いている人もオフィスの方々も本当に親切で車も丁寧に見てくださいました。ピカピカで戻って来た車に感激！Great place to do JCI!  The workers there are super nice. Their service was so awesome. My car came back nice and shiny.\"",
+        "name": "Chiaki OMara"
+        },
+        {
+            "img": "img/testimonials/02.jpg",
+           "text": "\"副会長殿、頼もしく、素晴らしい意見をありがとうございます。Vice President, thank you for your reliable and wonderful opinions.\"",
+           "name": "神田安一"
+        }
+    ],
+    "Contact": {
+        "address": "Nagasaki Pref, Sasebo City, Inari-Cho, 22-9",
+        "phone": "0956-31-3638",
+        "email": "info@company.com",
+        "facebook": "fb.com",
+        "twitter": "twitter.com",
+        "youtube": "youtube.com"
+    },
+    "Features": [{
+        "icon": "fa fa-university",
+        "title": "Sasebo Headquarters",
+        "text": "TEL:　３１－３６３８　FAX:　３１－８６２５"
+        },
+        {
+            "icon": "fa fa-send-o",
+            "title": "Hirado",
+            "text": "TEL:　２３－２２０５　FAX:　２３－３７８４"
+        },
+        {
+            "icon": "fa fa-car",
+           "title": "Matsura",
+           "text": "TEL:　７２－１２５１　FAX:　７２－１２５２"
+        },
+        {
+            "icon": "fa fa-info-circle",
+           "title": "Sasebo",
+           "text": "TEL:　３３－９６７０　FAX:　３３－９６７１"
+        }
+    ]
+}
