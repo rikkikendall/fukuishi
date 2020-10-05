@@ -23,10 +23,6 @@ export class App extends Component {
     this.handleClick = this.handleClick.bind(this);
   }
 
-  // state = {
-  //   landingPageData: {},
-  // }
-
   getlandingPageData() {
     this.setState({landingPageData : JsonData})
   }

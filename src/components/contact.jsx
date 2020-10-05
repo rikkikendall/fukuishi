@@ -1,7 +1,57 @@
 import React, { Component } from "react";
+import * as emailjs from 'emailjs-com';
 
 export class Contact extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      name: '',
+      email: '',
+      subject:'ホームページからのメッセージ',
+      message: ''
+    }
+    this.handleSubmit = this.handleSubmit.bind(this);
+    this.resetForm = this.resetForm.bind(this);
+    this.handleChange = this.handleChange.bind(this);
+  }
+
+  handleSubmit(event) {
+    event.preventDefault();
+    const { name, email, subject, message } = this.state;
+    const templateParams = {
+      from_name: name,
+      from_email: email,
+      to_name: '福石自動車 Fukuishi Motors',
+      subject,
+      message: message,
+    };
+    // emailjs.send("service_pp8h4ej","template_qkwaqrr");
+    emailjs.send(
+      'service_pp8h4ej',
+      'template_qkwaqrr',
+       templateParams,
+      'user_4I67pS8EOOwjdNFgoCpA6'
+    )
+    alert("Message Sent, メール送信済");
+    this.resetForm();
+  };
+
+  resetForm() {
+    this.setState({
+      name: '',
+      email: '',
+      subject: 'ホームページからのメッセージ',
+      message: '',
+    });
+  }
+
+  handleChange(event) {
+    this.setState({ [event.target.name]: event.target.value });
+  }
+
   render() {
+    const { name, email, subject, message, sentMessage } = this.state;
+
     return (
       <div>
         <div id="contact">
@@ -16,16 +66,18 @@ export class Contact extends Component {
                   </p>
                   <p> 下のフォームにお名前と連絡先を入れてください。 </p>
                 </div>
-                <form name="sentMessage" id="contactForm" noValidate>
+                <form name="sentMessage" id="contactForm" onSubmit={this.handleSubmit}>
                   <div className="row">
                     <div className="col-md-6">
                       <div className="form-group">
                         <input
                           type="text"
                           id="name"
+                          name="name"
                           className="form-control"
                           placeholder="Name 名前"
-                          required="required"
+                          value={name}
+                          onChange={this.handleChange}
                         />
                         <p className="help-block text-danger"></p>
                       </div>
@@ -35,9 +87,11 @@ export class Contact extends Component {
                         <input
                           type="email"
                           id="email"
+                          name="email"
                           className="form-control"
                           placeholder="Email　メールアドレス"
-                          required="required"
+                          value={email}
+                          onChange={this.handleChange}
                         />
                         <p className="help-block text-danger"></p>
                       </div>
@@ -50,12 +104,13 @@ export class Contact extends Component {
                       className="form-control"
                       rows="4"
                       placeholder="Message　メッセージ"
-                      required
+                      value={message}
+                      onChange={this.handleChange}
                     ></textarea>
                     <p className="help-block text-danger"></p>
                   </div>
-                  <div id="success"></div>
-                  <button type="submit" className="btn btn-custom btn-lg">
+                  {/* <div id="success"></div> */}
+                  <button type="submit" value="submit" className="btn btn-custom btn-lg">
                     Send Message　送る
                   </button>
                 </form>
@@ -101,12 +156,7 @@ export class Contact extends Component {
                     </li>
                     <li>
                       <a href={this.props.data ? this.props.data.twitter : "/"}>
-                        <i className="fa fa-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href={this.props.data ? this.props.data.youtube : "/"}>
-                        <i className="fa fa-youtube"></i>
+                        <i className="fa fa-instagram"></i>
                       </a>
                     </li>
                   </ul>
@@ -121,7 +171,7 @@ export class Contact extends Component {
               &copy; 2020 
               <a>  </a>
               <a href="http://www.rikkikendall.me" rel="nofollow">
-                Rikki Kendall
+                優太 Rikki Kendall
               </a>. Design by{" "}
               <a href="http://www.templatewire.com" rel="nofollow">
                 TemplateWire
