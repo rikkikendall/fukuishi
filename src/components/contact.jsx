@@ -50,7 +50,7 @@ export class Contact extends Component {
   }
 
   render() {
-    const { name, email, subject, message, sentMessage } = this.state;
+    const { name, email, message } = this.state;
 
     return (
       <div>
@@ -169,7 +169,7 @@ export class Contact extends Component {
           <div className="container text-center">
             <p>
               &copy; 2020 
-              <a>  </a>
+              <p>  </p>
               <a href="http://www.rikkikendall.me" rel="nofollow">
                 優太 Rikki Kendall
               </a>. Design by{" "}

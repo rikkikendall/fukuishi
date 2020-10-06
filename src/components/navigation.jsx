@@ -60,7 +60,7 @@ export class Navigation extends Component {
                   {this.props.data ? this.props.data.contact : "Loading"}
                 </a>
               </li>
-              <a　className="btn btn-custom btn-lg page-scroll"　scroll-behavior= "smooth"　onClick={this.props.passedFunction}>
+              <a　href="#header" className="btn btn-custom btn-lg page-scroll"　onClick={this.props.passedFunction}>
                 {this.props.data ? this.props.data.language : "Loading"}
               </a>{" "}
             </ul>
