@@ -26,7 +26,7 @@ export class testimonials extends Component {
                 ))
               : "loading"}
           </div>
-        </div>
+          </div>
       </div>
     );
   }

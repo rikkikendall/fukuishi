@@ -16,6 +16,10 @@ export class Header extends Component {
                   <p>
                     {this.props.data ? this.props.data.paragraph : "Loading"}
                   </p>
+                  <p> 
+                  &nbsp;&nbsp; &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp; 
+                  {'                                                   '} 
+                  </p>
                   <a
                     href="#features"
                     className="btn btn-custom btn-lg page-scroll"

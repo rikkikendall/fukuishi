@@ -66,6 +66,18 @@ export class Contact extends Component {
                   </p>
                   <p> 下のフォームにお名前と連絡先を入れてください。 </p>
                 </div>
+                {/* <div className="col-md-6">
+                      <div className="form-group">
+                      <p>
+                      <label>Your Role: 
+                        <select name="role[]" multiple>
+                        <option value="leader">Leader</option>
+                        <option value="follower">Follower</option>
+                        </select>
+                      </label>
+                    </p>
+                      </div>
+                    </div>  */}
                 <form name="sentMessage" id="contactForm" onSubmit={this.handleSubmit}>
                   <div className="row">
                     <div className="col-md-6">
@@ -135,15 +147,15 @@ export class Contact extends Component {
                 </p>
               </div>
               <div className="contact-item">
-                <p>
+                <p>{" "}
                   <span>
-                    <i className="fa fa-envelope-o"></i> Email　Eメール
+                    <i className="fas fa-envelope"></i> &nbsp;&nbsp; Email　メール
                   </span>{" "}
                   {this.props.data ? this.props.data.email : "loading"}
                 </p>
               </div>
             </div>
-            <div className="col-md-12">
+            {/* <div className="col-md-12">
               <div className="row">
                 <div className="social">
                   <ul>
@@ -151,18 +163,19 @@ export class Contact extends Component {
                       <a
                         href={this.props.data ? this.props.data.facebook : "/"}
                       >
-                        <i className="fa fa-facebook"></i>
+                        <i class="fa fa-hashtag"></i>
                       </a>
                     </li>
                     <li>
-                      <a href={this.props.data ? this.props.data.twitter : "/"}>
-                        <i className="fa fa-instagram"></i>
+                      <a href={this.props.data ? this.props.data.instagram : "/"}>
+                      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/brands.min.css" integrity="sha512-D0B6cFS+efdzUE/4wh5XF5599DtW7Q1bZOjAYGBfC0Lg9WjcrqPXZto020btDyrlDUrfYKsmzFvgf/9AB8J0Jw==" crossorigin="anonymous" />
+                        <i class="fab fa-instagram"></i>
                       </a>
                     </li>
                   </ul>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
         <div id="footer">

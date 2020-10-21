@@ -4,7 +4,9 @@
         "paragraph": "自動車整備のご用命は、ぜひ福石自動車整備工場まで。私たち福石自動車は、お客さまの安心と信頼を第一に 技術の高さとチーム力で、お車をトータルでサポートします。"
     },
     "About": {
-        "paragraph": "1951年1月15日創業。車を通したお付き合い。 お客さまの笑顔が、私たちの原動力です。福石町で車屋さんを始めて、６７年。 福石自動車では、お気に入りの車に長く乗っていただくサポートはもちろん、お客さまへの安心と信頼を築くことを大切に過ごしてきました。 その中で、三世代を通したお客さまとの交流は、本当に嬉しい限りです。 これからも、地域のみなさまと末長くお付き合いできるよう、スタッフ一同努めてまいります。店内には、車情報を集めたくつろぎスペース、キッズコーナーもありますので、お気軽にお立ち寄りください。",
+        "header": "稲荷町でお客さまとともに創業70年以上の歴史があります。1949年8月創業。お客さまとともに歩んできました。",
+        "subheader": "",
+        "paragraph": "福石自動車では、お客様のお気に入りのお車に長く、気持ちよく乗っていただくことを理念として、これまでお客さまとの信頼を大切に築いてきました。 故障修理では、安易に新品の部品に交換するのではなく、清掃して、修理して、塗装して手間はかかりますが、技術を発揮することでお客さまへの負担を軽減してきました。 これからも、地域のみなさまと末長くお付き合いできるよう、スタッフ一同努めてまいります。お車でお困りの事があれば、お気軽にお立ち寄りください。",
         "Why": [
             "お客さまの安心と信頼が第一",
            "お車をトータルでサポートします",
@@ -14,7 +16,7 @@
         "Why2": [
             "TEL: 0950-31-3638",
            "FAX: 0950-31-8625",
-           "定休日: 日、祝、年末年始（12/31-1/4)",
+           "定休日: 毎月第2土曜日、日曜、祝日",
            "営業時間: 8:30-17:30"
         ]
     },
@@ -36,22 +38,22 @@
            "text": "Japan Car Inspection (JCI) Services"
         },
         {
-            "icon": "fa fa-support",
+            "icon": "fa fa-hammer",
            "name": "板金",
            "text": "Body and Metal Work"
         },
         {
-            "icon": "fa fa-car",
+            "icon": "fa fa-car-crash",
            "name": "自動車保険",
            "text": "Car Insurance"
         },
         {
-            "icon": "fa fa-shopping-cart",
+            "icon": "fa fa-car",
            "name": "新車販売",
            "text": "New Car Sales"
         },
         {
-            "icon": "fa fa-key",
+            "icon": "fa fa-car",
             "name": "中古車販売",
             "text": "Used Car Sales"
         }
@@ -70,30 +72,44 @@
     "Contact": {
         "address": "長崎県佐世保市稲荷町22番9号",
         "phone": "0956-31-3638",
-        "email": "info@company.com",
+        "email": "fukuishi-sasebo8625@coda.ocn.ne.jp",
+        "instagram": "https://www.instagram.com/taaaaaaaaaak91/",
         "facebook": "fb.com",
         "twitter": "twitter.com",
         "youtube": "youtube.com"
     },
-    "Features": [{
-        "icon": "fa fa-university",
-        "title": "本社",
-        "text": "TEL:　３１－３６３８　FAX:　３１－８６２５"
-        },
+    "Features": [
         {
-            "icon": "fa fa-send-o",
+            "icon": "fa fa-map-marker-alt",
             "title": "平戸支店",
-            "text": "TEL:　２３－２２０５　FAX:　２３－３７８４"
+            "text": "TEL:　２３－２２０５",
+            "phone": "FAX:　２３－３７８４",
+            "address": "平戸市石川町９４５−１",
+            "google": "https://www.google.com/maps/search/?api=1&query=33.361297,129.549755&query_place_id=ChIJ--tXP5XxajURMA1SqGF9j-E"
         },
         {
-            "icon": "fa fa-car",
+            "icon": "fa fa-map-marker-alt",
+            "title": "本社",
+            "text": "TEL:　３１－３６３８",
+            "phone": "FAX:　３１－８６２５",
+            "address": "佐世保市稲荷町２２番9号",
+            "google": "https://www.google.com/maps/search/?api=1&query=33.158456,129.735934&query_place_id=ChIJN678Q4CWajURtJXLCnmjVRw"
+            },
+        {
+            "icon": "fa fa-map-marker-alt",
            "title": "松浦支店",
-           "text": "TEL:　７２－１２５１　FAX:　７２－１２５２"
+           "text": "TEL:　７２－１２５１",
+           "phone": "FAX:　７２－１２５２",
+            "address": "松浦市志佐町里免３２０番３",
+           "google": "https://www.google.com/maps/search/?api=1&query=33.354427,129.715149&query_place_id=ChIJS6GOBWqMajURftxFu8ZJl1M"
         },
         {
-            "icon": "fa fa-info-circle",
+            "icon": "fa fa-map-marker-alt",
            "title": "佐世保支店",
-           "text": "TEL:　３３－９６７０　FAX:　３３－９６７１"
+           "text": "TEL:　３３－９６７０",
+           "phone": "FAX:　３３－９６７１",
+            "address": "佐世保市大和町１０１０−１",
+           "google": "https://www.google.com/maps/search/?api=1&query=33.162697,129.749484&query_place_id=ChIJmQ9ZDGCXajURmtr7Rt6i5Ks"
         }
     ]
 }

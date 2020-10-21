@@ -4,7 +4,8 @@
         "paragraph": "At Fukuishi Motors, we put the peace of mind and the trust of our customers first, and provide total support for our vehicles with our technology and team strength."
     },
     "About": {
-        "paragraph": "1951年1月15日創業。車を通したお付き合い。 お客さまの笑顔が、私たちの原動力です。福石町で車屋さんを始めて、６７年。 福石自動車では、お気に入りの車に長く乗っていただくサポートはもちろん、お客さまへの安心と信頼を築くことを大切に過ごしてきました。 その中で、三世代を通したお客さまとの交流は、本当に嬉しい限りです。 これからも、地域のみなさまと末長くお付き合いできるよう、スタッフ一同努めてまいります。店内には、車情報を集めたくつろぎスペース、キッズコーナーもありますので、お気軽にお立ち寄りください。",
+        "header": "Founded in August of 1949, Fukuishi Motors has served the local people for over 70 years.",
+        "paragraph": "At Fukuishi Motors, we have built the trust of our customers with the philosophy of having them ride their favorite cars comfortably for a long time. During a repair, instead of simply replacing the parts with new ones, we take the time to clean, repair, and scrub your vehicle, reducing the burden on our customers by demonstrating our technology. We will continue to make every effort to keep in touch with the local people and establish long-lasting relationships. If you have any problems with your car, please feel free to drop by.",
         "Why": [
             "Always putting the customers needs first",
            "Total support of your vehicle.",
@@ -14,7 +15,7 @@
         "Why2": [
             "TEL: 0950-31-3638",
            "FAX: 0950-31-8625",
-           "Closed: Sundays, Japanese Holidays, and New Years（12/31-1/4)",
+           "Closed: Sundays, Japanese Holidays, and the 2nd Saturday of Each Month",
            "Open: 8:30-17:30"
         ]
     },
@@ -36,22 +37,22 @@
            "text": "Japan Car Inspection (JCI) Services"
         },
         {
-            "icon": "fa fa-support",
+            "icon": "fa fa-hammer",
            "name": "板金",
            "text": "Body and Metal Work"
         },
         {
-            "icon": "fa fa-car",
+            "icon": "fa fa-car-crash",
            "name": "自動車保険",
            "text": "Car Insurance"
         },
         {
-            "icon": "fa fa-shopping-cart",
+            "icon": "fa fa-car",
            "name": "新車販売",
            "text": "New Car Sales"
         },
         {
-            "icon": "fa fa-key",
+            "icon": "fa fa-car",
             "name": "中古車販売",
             "text": "Used Car Sales"
         }
@@ -70,30 +71,44 @@
     "Contact": {
         "address": "Nagasaki Pref, Sasebo City, Inari-Cho, 22-9",
         "phone": "0956-31-3638",
-        "email": "info@company.com",
+        "email": "fukuishi-sasebo8625@coda.ocn.ne.jp",
+        "instagram": "https://www.instagram.com/taaaaaaaaaak91/",
         "facebook": "fb.com",
         "twitter": "twitter.com",
         "youtube": "youtube.com"
     },
-    "Features": [{
-        "icon": "fa fa-university",
-        "title": "Sasebo Headquarters",
-        "text": "TEL:　３１－３６３８　FAX:　３１－８６２５"
-        },
+    "Features": [
         {
-            "icon": "fa fa-send-o",
+            "icon": "fa fa-map-marker-alt",
+            "title": "Headquarters",
+            "text": "TEL:　３１－３６３８",
+            "phone": "FAX:　３１－８６２５",
+            "address": "22-9 Inaricho, Sasebo, Nagasaki 857-0851",
+            "google": "https://www.google.com/maps/search/?api=1&query=33.158456,129.735934&query_place_id=ChIJN678Q4CWajURtJXLCnmjVRw"
+            },
+        {
+            "icon": "fa fa-map-marker-alt",
             "title": "Hirado",
-            "text": "TEL:　２３－２２０５　FAX:　２３－３７８４"
+            "text": "TEL:　２３－２２０５",
+            "phone": "FAX:　２３－３７８４",
+            "address": "945-1 Toishigawacho, Hirado, Nagasaki 859-5153",
+            "google": "https://www.google.com/maps/search/?api=1&query=33.361297,129.549755&query_place_id=ChIJ--tXP5XxajURMA1SqGF9j-E"
         },
         {
-            "icon": "fa fa-car",
-           "title": "Matsura",
-           "text": "TEL:　７２－１２５１　FAX:　７２－１２５２"
+            "icon": "fa fa-map-marker-alt",
+           "title": "Matsuura",
+           "text": "TEL:　７２－１２５１",
+           "phone": "FAX:　７２－１２５２",
+            "address": "320-3 Shisacho Satomen, Matsuura, Nagasaki 859-4502",
+           "google": "https://www.google.com/maps/search/?api=1&query=33.354427,129.715149&query_place_id=ChIJS6GOBWqMajURftxFu8ZJl1M"
         },
         {
-            "icon": "fa fa-info-circle",
+            "icon": "fa fa-map-marker-alt",
            "title": "Sasebo",
-           "text": "TEL:　３３－９６７０　FAX:　３３－９６７１"
+           "text": "TEL:　３３－９６７０",
+           "phone": "FAX:　３３－９６７１",
+            "address": "1010-1 Yamatocho, Sasebo, Nagasaki 857-1165",
+           "google": "https://www.google.com/maps/search/?api=1&query=33.162697,129.749484&query_place_id=ChIJmQ9ZDGCXajURmtr7Rt6i5Ks"
         }
     ]
 }

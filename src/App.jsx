@@ -9,6 +9,14 @@ import Testimonials from './components/testimonials';
 import Contact from './components/contact';
 import JsonData from './data/data.json';
 import EngJsonData from './data/engdata.json';
+import MapSection from './components/map/Map'; // import the map here
+import Ads from './components/ads';
+
+const location = {
+  address: '22-9 Inaricho, Sasebo, Nagasaki 857-0851',
+  lat: 33.158432,
+  lng: 129.735950,
+} // our location object from earlier
 
 export class App extends Component {
   constructor(props) {
@@ -50,6 +58,8 @@ export class App extends Component {
         <Services data={EngJsonData.Services} />
         <Gallery />
         <Testimonials data={EngJsonData.Testimonials} />
+        <Ads />
+        <MapSection location={location} zoomLevel={17} />
         {/* <Team data={EngJsonData.Team} /> */}
         <Contact data={EngJsonData.Contact} />
         </div>
@@ -68,6 +78,8 @@ export class App extends Component {
         <Services data={this.state.landingPageData.Services} />
         <Gallery />
         <Testimonials data={this.state.landingPageData.Testimonials} />
+        <Ads />
+        <MapSection location={location} zoomLevel={17} />
         {/* <Team data={this.state.landingPageData.Team} /> */}
         <Contact data={this.state.landingPageData.Contact} />
       </div>
