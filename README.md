@@ -1,3 +1,12 @@
+# Fukuishi Homepage - Bilingual Static Application 
+
+## Website URL Deployed on Netlify
+https://fukuishi.netlify.app/
+
+## EmailJS for Contact Form. 
+
+## English and Japanese Translations
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
