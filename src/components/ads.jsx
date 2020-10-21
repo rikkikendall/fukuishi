@@ -45,7 +45,7 @@ export class Ads extends Component {
           <div className="col-xs-12 col-md-6"> 
           <div className="hover-bg"> 
             {" "}
-            <a href="img/cleverin.jpg"> 
+            <a href="img/ad2.png"> 
                 <div className="hover-text"> 
                     <h4> ヘッドライト復活　REVIVE COAT  </h4>
                 </div> 
