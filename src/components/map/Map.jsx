@@ -11,10 +11,6 @@ const LocationPin = ({ text }) => (
   </div>
 )
 
-const handleApiLoaded = (map, maps) => {
-  // use map and maps objects
-};
-
 const Map = ({ location, zoomLevel }) => (
     <div className="map">
   
