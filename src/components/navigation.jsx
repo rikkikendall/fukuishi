@@ -21,7 +21,7 @@ export class Navigation extends Component {
               <span className="icon-bar"></span>{" "}
             </button>
             <a className="navbar-brand page-scroll" href="#page-top">
-            （有) 福石自動車 整備工場
+            (有)福石自動車整備工場
             </a>{" "}
           </div>
 

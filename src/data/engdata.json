@@ -28,31 +28,40 @@
     },
     "Services": [{
         "icon": "fa fa-wrench",
+        "img": "img/portfolio/01-small.png",
         "name": "点検修理",
         "text": "Inspection & Repairs"
         },
         {
             "icon": "fa fa-cog fa-spin fa-3x fa-fw",
+            "img": "img/portfolio/04-small.png",
            "name": "車検",
            "text": "Japan Car Inspection (JCI) Services"
         },
         {
             "icon": "fa fa-hammer",
+            "img": "img/portfolio/06-large.png",
            "name": "板金",
            "text": "Body and Metal Work"
         },
         {
             "icon": "fa fa-car-crash",
+            "img": "img/insurance/Picture1.png",
+            "img2": "img/insurance/Picture2.png",
+            "img3": "img/insurance/Picture3.png",
+            "img4": "img/insurance/Picture4.png",
            "name": "自動車保険",
            "text": "Car Insurance"
         },
         {
             "icon": "fa fa-car",
+            "img": "img/portfolio/05-small.jpg",
            "name": "新車販売",
            "text": "New Car Sales"
         },
         {
             "icon": "fa fa-car",
+            "img": "img/portfolio/04-small.jpg",
             "name": "中古車販売",
             "text": "Used Car Sales"
         }

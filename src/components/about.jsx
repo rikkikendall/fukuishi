@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Typography from '@material-ui/core/Typography';
 
 export class about extends Component {
   render() {
@@ -10,7 +11,9 @@ export class about extends Component {
             <div className="col-xs-12 col-md-6">
               <div className="about-text">
                 <h2>About Us</h2>
-                <h3>{this.props.data ? this.props.data.header : 'loading...'}</h3>
+                <Typography variant="h4" gutterBottom>
+                  {this.props.data ? this.props.data.header : 'loading...'}
+                </Typography>
                 <p>{this.props.data ? this.props.data.paragraph : 'loading...'}</p>
                 <h3>Why Choose Us?</h3>
                 <div className="list-style">
