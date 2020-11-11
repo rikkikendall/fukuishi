@@ -10,7 +10,7 @@ export class Header extends Component {
             <div className="container">
               <div className="row">
                 <div className="col-md-8 col-md-offset-2 intro-text">
-                  <Typography variant="h1" component="h1" styles={{backgroundColor: 'white', color: "#FFFFFF", root: { color: "#FFFFFF"}}} gutterBottom>
+                  <Typography variant="h1" component="h2" style={{ color: "#FFFFFF", fontWeight: "bold", fontSize: "5em" }} gutterBottom>
                     {this.props.data ? this.props.data.title : "Loading"}
                     <span></span>
                   </Typography>
